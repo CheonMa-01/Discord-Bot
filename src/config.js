@@ -3,7 +3,7 @@ const config = {
         path: './database.yml' // The database path.
     },
     development: {
-        enabled: false, // If true, the bot will register all application commands to a specific guild (not globally).
+        enabled: true, // If true, the bot will register all application commands to a specific guild (not globally).
         guildId: '936598387120295987',
     },
     commands: {
