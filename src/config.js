@@ -4,7 +4,7 @@ const config = {
     },
     development: {
         enabled: false, // If true, the bot will register all application commands to a specific guild (not globally).
-        guildId: 'Your bot development guild ID',
+        guildId: '936598387120295987',
     },
     commands: {
         prefix: '?', // For message commands, prefix is required. This can be changed by a database.
@@ -16,8 +16,8 @@ const config = {
         }
     },
     users: {
-        ownerId: 'Your account ID', // The bot owner ID, which is you.
-        developers: ['Your account ID', 'Another account ID'] // The bot developers, remember to include your account ID with the other account IDs.
+        ownerId: '750258938942849086', // The bot owner ID, which is you.
+        developers: ['750258938942849086'] // The bot developers, remember to include your account ID with the other account IDs.
     },
     messages: { // Messages configuration for application commands and message commands handler.
         NOT_BOT_OWNER: 'You do not have the permission to run this command because you\'re not the owner of me!',
@@ -26,7 +26,7 @@ const config = {
         CHANNEL_NOT_NSFW: 'You cannot run this command in a non-NSFW channel!',
         MISSING_PERMISSIONS: 'You do not have the permission to run this command, missing permissions.',
         COMPONENT_NOT_PUBLIC: 'You are not the author of this button!',
-        GUILD_COOLDOWN: 'You are currently in cooldown, you have the ability to re-use this command again in \`%cooldown%s\`.'
+        GUILD_COOLDOWN: 'You are currently in cooldown, you have the ability to re-use this command again in `%cooldown%s`.'
     }
 }
 
